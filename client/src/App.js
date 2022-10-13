@@ -84,7 +84,7 @@ const App = () => {
       <footer id="footer">
         <p >&copy; Copyright 2022 <br />
         Built with &#x2661; by  
-        <a href="https://github.com/makaylacodes/fs-quote-generator" target="_blank">
+        <a href="https://github.com/makaylacodes/anecdotes" target="_blank">
         Makayla Anderson-Tucker
         </a>
         </p>
