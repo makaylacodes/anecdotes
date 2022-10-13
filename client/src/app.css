@@ -1,0 +1,138 @@
+#root, html, body {
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    box-sizing: border-box;
+    font-family: 'Palatino Linotype', sans-serif;
+  }
+  
+  .app {
+    height: 100%;
+    background: linear-gradient( rgb(251, 114, 114), rgb(91, 44, 44));
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0% 0% 0% 0%;
+    
+  }
+  
+  .card {
+    background: rgb(240, 186, 186);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+    border-style: solid;
+    border-color: black;
+    height: fit-content;
+    width: 45%;
+    margin: 0% 3% 7% 3%;
+    padding: 0% 3% 0% 3%;
+  }
+  
+  .title{
+  font-family: 'Palatino Linotype', sans-serif;
+  
+  text-decoration: underline;
+  padding: 0% 0% 0% 0%;
+  margin: 0% 0% -6% 0%;
+  }
+
+  .quote {
+    max-width: fit-content;
+    padding: 0% 0% 0% 0%;
+    margin: 2% 0% 0% 0%;
+  }
+  .button {
+    border-radius: 90px;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    opacity: 1;
+    background-color: rgb(113, 52, 71);
+    border: 3px solid rgba(57, 2, 11, 0.6);
+    margin: 2% 0% 0% 0%;
+    padding: 1.5% 10% 1.5% 10%;
+}
+  
+  .button span{
+    color: #ffffff;
+    font-weight: bolder;
+    letter-spacing: .7px;
+    padding: 20% 0% 0% 0%;
+  
+  }
+  
+  .button:hover{
+    animation: rotate .7s ease-in-out both;
+  }
+  
+  .button:hover span{
+    animation: storm .7s ease-in-out both;
+    animation-delay: .06s;
+  }
+  
+  #footer{
+    text-align: center;
+    font-family: 'Palatino Linotype', sans-serif;
+    font-size: 105%;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(91, 45, 45);
+    height: 8%;
+    width: 100vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#fff;
+  }
+  
+  a{
+    font-family: 'Palatino Linotype', sans-serif;
+    color:#fff;
+    font-weight: bold;
+    font-size: 110%;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    25% {
+      transform: rotate(3deg) translate3d(0, 0, 0);
+    }
+    50% {
+      transform: rotate(-3deg) translate3d(0, 0, 0);
+    }
+    75% {
+      transform: rotate(1deg) translate3d(0, 0, 0);
+    }
+    100% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+  }
+       
+  @keyframes storm {
+    0% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+    25% {
+      transform: translate3d(4px, 0, 0) translateZ(0);
+    }
+    50% {
+      transform: translate3d(-3px, 0, 0) translateZ(0);
+    }
+    75% {
+      transform: translate3d(2px, 0, 0) translateZ(0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+  }  
+  
