@@ -1,15 +1,6 @@
 # Anecdotes
 A React web app that allows users to generate and vote for random anecdotes. Live demo [_here_](https://react-anecdotes.netlify.app/). 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)   
-* [Screenshots](#screenshots)
-* [Project Status](#project-status)
-* [Contact](#contact)
-<!-- * [License](#license) -->
-
 
 ## General Information
 This project was a part of my Fullstack Open coursework. The objectives were to learn how to:
